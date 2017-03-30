@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>About</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card>
+    <ion-card-content>
+      This project is a simple REST API consumer for Ionic Learning purpose. It was tutoried by professor
+      <a href="https://github.com/brunogamacatao" target="_blank">@brunogamacatao</a> and made by following Ionic guidelines.
+      What to see more projects of mine? Check <a href="https://github.com/JGeraldoLima" target="_blank">my github</a> page!
+
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      <ion-list>
+        <ion-list-header>
+          Credits:
+        </ion-list-header>
+        <ion-item><a href="http://www.geonames.org/" target="_blank">GeoNames REST API</a></ion-item>
+        <ion-item><a href="https://ionicframework.com/docs" target="_blank">Ionic Docs</a></ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+  <button ion-button (click)="shareApp()" full padding>
+      Share it!
+    <ion-icon name="share"></ion-icon>
+  </button>
+</ion-content>

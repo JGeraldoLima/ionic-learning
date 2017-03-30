@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <button menuToggle *ngIf="!selectedCity">
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>City Details</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="city-details-background">
+  <ion-card>
+    <ion-card-content>
+      <ion-list>
+        <ion-item><b>Name:</b> {{selectedCity.name}}</ion-item>
+        <ion-item><b>Latitude:</b> {{selectedCity.latitude | number: '1.5-10' }}</ion-item>
+        <ion-item><b>Longitude:</b> {{selectedCity.longitude | number: '1.5-10'}}</ion-item>
+        <ion-item><b>Population:</b> {{selectedCity.population | number}} habitants</ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

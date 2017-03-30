@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Ionic Learning</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+  <h5>This is a most populous country cities search ionic app. Just insert the code of the country you want to search!</h5>
+
+  <ion-list>
+
+    <ion-item>
+      <ion-label floating>Country code (ex.: 'BR' for Brazil)</ion-label>
+      <ion-input type="text" [(ngModel)]="country"></ion-input>
+    </ion-item>
+
+  </ion-list>
+
+  <ion-list>
+    <button ion-button (click)="searchCountry()" [disabled]="country === undefined || country.trim() === ''">Search</button>
+  </ion-list>
+
+  <ion-list *ngIf="cities && cities.length > 0">
+    <ion-item *ngFor="let city of cities | orderBy : 'population'" (click)="openCityDetails($event, city)">
+      <h2>{{city.name}}</h2>
+      <p>Population: {{city.population | number}} habitants</p>
+    </ion-item>
+  </ion-list>
+
+  <h4 *ngIf="cities && cities.length === 0" padding>No country found.</h4>
+</ion-content>

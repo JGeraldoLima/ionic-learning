@@ -18,13 +18,13 @@ Once you have VSC installed, just open repo root folder. Fork it too, if you pre
 
 # TIPs
 
-    * To create a new project: ```ionic start --v <name> <tipo layout (tabs, sidemenu, blank, super, tutorial)>```
-    * To create a new page: ```ionic g page <page_name>``` (it will create a ```.ts```, a ```.sass``` and an ```.html``` file for you, already linked)
-    * To create a new provider: ```ionic g provider <service_name>``` (don't forget to declare it on app/app.module.ts!)
+    - To create a new project: `ionic start --v <name> <tipo layout (tabs, sidemenu, blank, super, tutorial)>`
+    - To create a new page: `ionic g page <page_name>` (it will create a `.ts`, a `.sass` and an `.html` file for you, already linked)
+    - To create a new provider: `ionic g provider <service_name>` (don't forget to declare it on app/app.module.ts!)
     
-    * Download **IonicView** app on your mobile device to make real tests easier!
+    - Download **IonicView** app on your mobile device to make real tests easier!
 
-    * New on Angular2? Use ```let``` to define **local variables** instead of ```var```! Plus, check the .html new binding symbols to use ng directives (master detail, brackets, etc)!
+    - New on Angular2? Use `let` to define **local variables** instead of `var`! Plus, check the .html new binding symbols to use ng directives (master detail, brackets, etc)!
 
 # Version: 1.0
 

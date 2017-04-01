@@ -20,12 +20,10 @@ export class AboutPage {
 
   shareApp() {
     // TODO: refactor this on some more beautiful way!
-    let appUrl = "";
-    if (this.platform.is("android")) {
-      appUrl = "https://github.com/JGeraldoLima"
-    } else if (this.platform.is("windows")) {
+    let appUrl = "https://play.google.com/store/apps/details?id=com.jgeraldo.ioniclearning";
+    if (this.platform.is("windows")) {
       appUrl = "https://goo.gl/vLkbTu"
-    } else {
+    } else if (this.platform.is("ios")) {
       appUrl = "Not available for iOS yet, I'm not a rich guy :/"
     }
 

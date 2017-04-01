@@ -6,8 +6,6 @@ import 'rxjs/add/operator/catch';
 
 import { ToastProvider } from '../providers/toast-provider';
 
-import { City } from './../models/city';
-
 const API_URL = 'http://api.geonames.org/searchJSON?username=jgeraldo&country=';
 
 @Injectable()

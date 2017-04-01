@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { ToastController, Loading, LoadingController, NavController } from 'ionic-angular';
-import { AlertController } from 'ionic-angular';
+import { LoadingController, NavController } from 'ionic-angular';
 
 import { ToastProvider } from './../../providers/toast-provider';
 import { CountryProvider } from '../../providers/country-provider'

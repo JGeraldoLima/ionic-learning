@@ -4,7 +4,7 @@ This is a simple example of an Ionic 2 hybrid framework project.
 
 It's about an REST API consumer for countries most populous cities, given its code. 
 
-Developed following the Ionic 2 guidelines and tutoried, in part, by professor Bruno Catão (https://github.com/brunogamacatao).
+Developed following the Ionic 2 guidelines and tutoried, in part, by professor @brunogamacatao.
 
 Download and check the available samples! [WindowsPhone](https://goo.gl/vLkbTu) and [Android](https://play.google.com/store/apps/details?id=com.jgeraldo.ioniclearning)
 
